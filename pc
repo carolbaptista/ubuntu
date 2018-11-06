@@ -1,0 +1,8 @@
+echo "Digite a pasta que você quer compactar?"
+read pasta
+
+tar -cvzf comp.tar.gz $pasta
+
+rm -r $pasta
+
+
