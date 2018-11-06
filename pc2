@@ -1,0 +1,24 @@
+echo "Digite a pasta"
+read pasta
+
+echo "Quer comprimir?"
+read $compr
+
+
+
+if test "$compr" = "sim"
+then
+tar -cvzf comp.tar.gz $pasta
+
+rm -r $pasta
+
+fi
+
+
+if test "$compr" = "nao"
+then 
+cp $pasta
+fi
+
+
+
