@@ -1,10 +1,10 @@
-cp /home/pedro/Downloads/ -r /home/pedro/Área\ de\ Trabalho/backup
+cp /home/pedro/Downloads/ -r /backup
 
-cp /home/pedro/Documentos/ -r /home/pedro/Área\ de\ Trabalho/backup
+cp /home/pedro/Documentos/ -r /backup
 
-cp /home/pedro/Área\ de\ Trabalho/ -r /home/pedro/Área\ de\ Trabalho/backup
+cp /home/pedro/Área\ de\ Trabalho/ -r /backup
 
-cp /home/pedro/Imagens -r /home/pedro/Área\ de\ Trabalho/backup
+cp /home/pedro/Imagens -r /backup
 
 
 
