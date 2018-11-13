@@ -1,0 +1,1 @@
+ top | grep mem > /home/pedro/Área\ de\ Trabalho/mem.txt

@@ -1,0 +1,8 @@
+echo "Digite o caminho"
+read $caminho
+
+foto="$caminho"
+
+cd /home/pedro/Downloads
+echo fazendo Download...
+wget $caminho
