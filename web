@@ -1,8 +1,15 @@
+echo "Quer baixar algo?"
+read sim
+
 echo "Digite o caminho"
-read $caminho
+read caminho
 
-foto="$caminho"
-
+if test "$sim" = "sim"
+then
 cd /home/pedro/Downloads
 echo fazendo Download...
+sleep 1
 wget $caminho
+fi
+
+
